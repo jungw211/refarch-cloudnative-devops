@@ -118,6 +118,7 @@
         "repo-branch",
         "deploy-org",
         "deploy-space",
+        "deploy-suffix",
         "apic-user",
         "apic-pass",
         "shared-secret",
@@ -167,6 +168,12 @@
             "readonly": false,
             "title": "VPN Pre-shared key",
             "key": "customer-psk"
+        },
+          {
+            "type": "text",
+            "readonly": false,
+            "title": "JUNGW TESTT",
+            "key": "deploy-suffix"
         },
         {
             "type": "text",
